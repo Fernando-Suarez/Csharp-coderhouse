@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase4FuncionesActividad2",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase5ClasesYObjetos", "Clase05ClasesYObjetos\Clase5ClasesYObjetos.csproj", "{CC791577-85AD-4EE1-B087-706F0F3F6F2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase4zAfter", "Clase4_5After\Clase4zAfter.csproj", "{BA84E269-3448-4F79-951C-E0C47D6B0636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase4zAfter", "Clase4_5After\Clase4zAfter.csproj", "{BA84E269-3448-4F79-951C-E0C47D6B0636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase4zAfterReciboSueldoWinForm", "Clase4zAfterReciboSueldoWinForm\Clase4zAfterReciboSueldoWinForm.csproj", "{E26C1D7F-37DE-4F5F-8B4C-87F682AA1CB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{BA84E269-3448-4F79-951C-E0C47D6B0636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA84E269-3448-4F79-951C-E0C47D6B0636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA84E269-3448-4F79-951C-E0C47D6B0636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26C1D7F-37DE-4F5F-8B4C-87F682AA1CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26C1D7F-37DE-4F5F-8B4C-87F682AA1CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26C1D7F-37DE-4F5F-8B4C-87F682AA1CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26C1D7F-37DE-4F5F-8B4C-87F682AA1CB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
