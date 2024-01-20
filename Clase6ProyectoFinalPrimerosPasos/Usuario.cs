@@ -14,16 +14,16 @@ namespace Clase6ProyectoFinalPrimerosPasos
         private string _nombre;
         private string _apellido;
         private string _nombreUsuario;
-        private string _contraseña;
+        private string _password;
         private string _email;
 
-        public Usuario(int id, string nombre, string apellido, string nombreUsuario, string contraseña, string email)
+        public Usuario(int id, string nombre, string apellido, string nombreUsuario, string password, string email)
         {
             this._id = id;
             this._nombre = nombre;
             this._apellido = apellido;
             this._nombreUsuario = nombreUsuario;
-            this._contraseña = contraseña;
+            this._password = password;
             this._email = email;
         }
 
@@ -47,9 +47,9 @@ namespace Clase6ProyectoFinalPrimerosPasos
             get { return _nombreUsuario; }
             set { _nombreUsuario = value; }
         }
-        public string Contraseña 
-        { get { return _contraseña; }
-          set { _contraseña= value; }
+        public string Password 
+        { get { return _password; }
+          set { _password = value; }
         }
         public string Email
         {
