@@ -42,6 +42,7 @@
             dgvMostrarLista.RowTemplate.Height = 25;
             dgvMostrarLista.Size = new Size(768, 352);
             dgvMostrarLista.TabIndex = 0;
+            dgvMostrarLista.CellContentClick += dgvMostrarLista_CellContentClick;
             // 
             // lblProductosE
             // 

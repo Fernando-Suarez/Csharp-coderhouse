@@ -4,6 +4,8 @@ namespace Clase8ListasYMatricesActividad1
 {
     public partial class Form1 : Form
     {
+        
+
         public Form1()
         {
             InitializeComponent();
@@ -11,6 +13,7 @@ namespace Clase8ListasYMatricesActividad1
         ProductoConE productoConE;
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             //Descripción de la actividad. 
             //Dado un array con productos(solo Código, Descripción) precargados(no más de 10), se debe insertar en una lista  los elementos que contengan E.
             //Mostrar por pantalla los productos de la lista
@@ -33,6 +36,11 @@ namespace Clase8ListasYMatricesActividad1
         {
             dgvMostrarLista.DataSource = null;
             productoConE.MostrarLista();
+        }
+
+        private void dgvMostrarLista_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
