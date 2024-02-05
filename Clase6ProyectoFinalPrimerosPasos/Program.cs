@@ -15,3 +15,13 @@
 
 //Clase: Venta;
 //Propiedades: Id, Comentarios, IdUsuario
+
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+
+       
+}
+}

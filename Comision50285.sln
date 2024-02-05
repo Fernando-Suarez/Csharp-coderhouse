@@ -67,9 +67,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase8ListasYMatricesActivi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase9ConsultaDatosADO_NET", "Clase9ConsultaDatosADO_NET\Clase9ConsultaDatosADO_NET.csproj", "{FC9B4A08-12C7-4FE0-91AE-5349ED1993D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase9ConsultaDatosADO_NET_actividadEnClaseForm", "Clase9ConsultaDatosADO_NET_actividadEnClaseForm\Clase9ConsultaDatosADO_NET_actividadEnClaseForm.csproj", "{15EFF64E-DF02-46AC-B060-2D4FC8A12CA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase9ConsultaDatosADO_NET_actividadEnClaseForm", "Clase9ConsultaDatosADO_NET_actividadEnClaseForm\Clase9ConsultaDatosADO_NET_actividadEnClaseForm.csproj", "{15EFF64E-DF02-46AC-B060-2D4FC8A12CA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase9ConsultaDatosADO_NET_actividadEnClaseForm2", "Clase9ConsultaDatosADO_NET_actividadEnClaseForm2\Clase9ConsultaDatosADO_NET_actividadEnClaseForm2.csproj", "{A733C685-1709-4548-91F6-A95DAF6D9959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase9ConsultaDatosADO_NET_actividadEnClaseForm2", "Clase9ConsultaDatosADO_NET_actividadEnClaseForm2\Clase9ConsultaDatosADO_NET_actividadEnClaseForm2.csproj", "{A733C685-1709-4548-91F6-A95DAF6D9959}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase10ManipularDatosConADO_NET", "Clase10ManipularDatosConADO_NET\Clase10ManipularDatosConADO_NET.csproj", "{A45BE7F0-3BAF-40A0-B863-163C1A360A5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase11EntityFramework_Migrations_CodeFirst", "Clase11EntityFramework_Migrations_CodeFirst\Clase11EntityFramework_Migrations_CodeFirst.csproj", "{9785E1A8-751E-426D-BC39-BC4C426744BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase11EntityFramework_Scoffolding", "Clase11EntityFramework_Scoffolding\Clase11EntityFramework_Scoffolding.csproj", "{43158460-9665-453A-A637-7E5C62EB0AF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase11DesafioEntregable_AccesoADatos_ADO_console", "Clase11DesafioEntregable_AccesoADatos_ADO_console\Clase11DesafioEntregable_AccesoADatos_ADO_console.csproj", "{B833A945-A26D-4866-9DFF-064A18583440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase12EntityFrameworkManipulacionDatos_Form", "Clase12EntityFrameworkManipulacionDatos_Form\Clase12EntityFrameworkManipulacionDatos_Form.csproj", "{EDD3407D-D63D-4FD4-AC22-ACD13AE289C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +223,26 @@ Global
 		{A733C685-1709-4548-91F6-A95DAF6D9959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A733C685-1709-4548-91F6-A95DAF6D9959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A733C685-1709-4548-91F6-A95DAF6D9959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45BE7F0-3BAF-40A0-B863-163C1A360A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45BE7F0-3BAF-40A0-B863-163C1A360A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45BE7F0-3BAF-40A0-B863-163C1A360A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45BE7F0-3BAF-40A0-B863-163C1A360A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9785E1A8-751E-426D-BC39-BC4C426744BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9785E1A8-751E-426D-BC39-BC4C426744BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9785E1A8-751E-426D-BC39-BC4C426744BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9785E1A8-751E-426D-BC39-BC4C426744BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43158460-9665-453A-A637-7E5C62EB0AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43158460-9665-453A-A637-7E5C62EB0AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43158460-9665-453A-A637-7E5C62EB0AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43158460-9665-453A-A637-7E5C62EB0AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B833A945-A26D-4866-9DFF-064A18583440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B833A945-A26D-4866-9DFF-064A18583440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B833A945-A26D-4866-9DFF-064A18583440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B833A945-A26D-4866-9DFF-064A18583440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD3407D-D63D-4FD4-AC22-ACD13AE289C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD3407D-D63D-4FD4-AC22-ACD13AE289C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD3407D-D63D-4FD4-AC22-ACD13AE289C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD3407D-D63D-4FD4-AC22-ACD13AE289C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

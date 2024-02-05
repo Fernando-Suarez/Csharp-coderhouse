@@ -23,60 +23,60 @@
 //Variables
 
 
-//string codigo = "";
-//int cantidad;
-//int montoFinal = 0;
-//int precio = 0;
-//string confirmacion;
+string codigo = "";
+int cantidad;
+int montoFinal = 0;
+int precio = 0;
+string confirmacion;
 
 
 ////Cuerpo del Programa
 
 
-//vender();
-//void vender()
-//{
+vender();
+void vender()
+{
 
-//    Console.WriteLine("Bienvenido, estos son nuestros productos:");
-//    Console.WriteLine("Código     Descripción      Precio\r\n DES       Desodorante       200\r\n JP       Jabón en polvo     300\r\n DET        Detergente       250");
+    Console.WriteLine("Bienvenido, estos son nuestros productos:");
+    Console.WriteLine("Código     Descripción      Precio\r\n DES       Desodorante       200\r\n JP       Jabón en polvo     300\r\n DET        Detergente       250");
 
-//    while (codigo != "FIN")
-//    {
-//        Console.WriteLine("Ingrese el codigo del producto que desea comprar o FIN para finalizar la compra.");
-//        codigo = Console.ReadLine().ToUpper();
-//        if (codigo == "FIN")
-//        {
-//            break;
-//        }
-//        switch (codigo)
-//        {
-//            case "DES":
-//                precio = 200;
-//                break;
-//            case "JP":
-//                precio = 300;
-//                break;
-//            case "DET":
-//                precio = 250;
-//                break;
-//            default: 
-//                ;
-//                break;
-//        }     
-//        Console.WriteLine("Ingrese la cantidad que desea comprar");
-//        cantidad = int.Parse(Console.ReadLine());
-//        montoFinal += precio * cantidad;
-//    }
+    while (codigo != "FIN")
+    {
+        Console.WriteLine("Ingrese el codigo del producto que desea comprar o FIN para finalizar la compra.");
+        codigo = Console.ReadLine().ToUpper();
+        if (codigo == "FIN")
+        {
+            break;
+        }
+        switch (codigo)
+        {
+            case "DES":
+                precio = 200;
+                break;
+            case "JP":
+                precio = 300;
+                break;
+            case "DET":
+                precio = 250;
+                break;
+            default:
+                ;
+                break;
+        }
+        Console.WriteLine("Ingrese la cantidad que desea comprar");
+        cantidad = int.Parse(Console.ReadLine());
+        montoFinal += precio * cantidad;
+    }
 
-//    Console.WriteLine("Su monto a pagar es de {0}", montoFinal);
-//    Console.WriteLine("Desea realizar la compra? Si/No");
-//    confirmacion = (Console.ReadLine()).ToUpper();
-//    if (confirmacion == "SI")
-//    {
-//        Console.WriteLine("Gracias por comprar en nuestra tienda");
-//    }
+    Console.WriteLine("Su monto a pagar es de {0}", montoFinal);
+    Console.WriteLine("Desea realizar la compra? Si/No");
+    confirmacion = (Console.ReadLine()).ToUpper();
+    if (confirmacion == "SI")
+    {
+        Console.WriteLine("Gracias por comprar en nuestra tienda");
+    }
 
-//}
+}
 
 
 
@@ -89,19 +89,19 @@
 
 
 
-Console.WriteLine("Bienvendios a mi Tienda... ");
-codigoProductoSeleccionado = obtieneCodigoDeProducto();
-while (!finDeCompra(codigoProductoSeleccionado, codigoFinDeCompra))
-{
-    montoTotal = montoTotal + calculoMontoProducto(codigoProductoSeleccionado);
-    codigoProductoSeleccionado = obtieneCodigoDeProducto();
+//Console.WriteLine("Bienvendios a mi Tienda... ");
+//codigoProductoSeleccionado = obtieneCodigoDeProducto();
+//while (!finDeCompra(codigoProductoSeleccionado, codigoFinDeCompra))
+//{
+//    montoTotal = montoTotal + calculoMontoProducto(codigoProductoSeleccionado);
+//    codigoProductoSeleccionado = obtieneCodigoDeProducto();
 
-}
-Console.WriteLine("El monto total de su compra es {0}", montoTotal);
-if(confirmaCompra())
-{
-    Console.WriteLine("Gracias por comprar en nuestra tienda !!");
-} else
-{
-    Console.WriteLine("Su compra ha sido cancelada, El sistema de cerrará...");
-}
+//}
+//Console.WriteLine("El monto total de su compra es {0}", montoTotal);
+//if(confirmaCompra())
+//{
+//    Console.WriteLine("Gracias por comprar en nuestra tienda !!");
+//} else
+//{
+//    Console.WriteLine("Su compra ha sido cancelada, El sistema de cerrará...");
+//}
