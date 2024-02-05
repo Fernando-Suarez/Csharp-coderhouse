@@ -70,6 +70,8 @@ namespace Clase11DesafioEntregable_AccesoADatos_ADO_console.Database
 
         }
 
+
+    
         public static void CrearProductoVendido(ProductoVendido producto)
         {
             try
@@ -93,9 +95,9 @@ namespace Clase11DesafioEntregable_AccesoADatos_ADO_console.Database
             }
         }
 
-        //ModificarProducto
+
         
-        public static void ModificarProducto(ProductoVendido productoVendido, int id)
+        public static void ModificarProductoVendido(ProductoVendido productoVendido, int id)
         {
            try
             {
@@ -118,7 +120,7 @@ namespace Clase11DesafioEntregable_AccesoADatos_ADO_console.Database
             }
         }
 
-        //EliminarProducto
+  
         public static void EliminarProductoVendido(int id)
         {
             try

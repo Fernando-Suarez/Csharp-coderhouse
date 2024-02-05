@@ -7,7 +7,7 @@ namespace Clase11DesafioEntregable_AccesoADatos_ADO_console
     {
         static void Main(string[] args) 
         {
-
+            //----------------------PRODUCTO------------------------------
             //Obtener Producto
 
             //Console.WriteLine(ProductoData.ObtenerProducto(1).ToString());
@@ -44,15 +44,63 @@ namespace Clase11DesafioEntregable_AccesoADatos_ADO_console
 
 
             //Eliminar Producto
-            try
-            {
-                VentaData.EliminarVenta(1);
-                Console.WriteLine("Venta Eliminada Con Exito");
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("No se Pudo Eliminar la Venta", ex);
-            }
+            //try
+            //{
+            //    ProductoData.EliminarProducto(1);
+            //    Console.WriteLine("Producto Eliminado Con Exito");
+            //}
+            //catch (Exception ex)
+            //{
+            //    throw new Exception("No se Pudo Eliminar el Producto", ex);
+            //}
+
+
+            //----------------- PRODUCTO VENDIDO----------------------
+            //Obtener ProductoVendido
+            //Console.WriteLine(ProductoVendidoData.ObtenerProductoVendido(1).ToString());
+
+
+            ////Listar Productos Vendidos
+
+            //foreach (ProductoVendido producto in ProductoVendidoData.ListarProductosVendidos())
+            //{
+            //    Console.WriteLine(producto.ToString());
+            //}
+
+            ////Crear Producto Vendido
+
+            //ProductoVendido productoNuevo = new ProductoVendido(1, 2,50, 1);
+
+            //if (productoNuevo is not null)
+            //{
+            //    ProductoVendidoData.CrearProductoVendido(productoNuevo);
+            //    Console.WriteLine("Producto Vendido Creado con Exito");
+            //}
+
+
+            ////Modificar Producto
+            //try
+            //{
+            //    ProductoVendido productoModificado = new ProductoVendido(1,2,25,1);
+            //    ProductoVendidoData.ModificarProductoVendido(productoModificado, 2);
+            //    Console.WriteLine("Producto Vendido Modificado con Exito");
+            //}
+            //catch (Exception ex)
+            //{
+            //    throw new Exception("No se puedo modificar el producto vendido", ex);
+            //}
+
+
+            ////Eliminar Producto
+            //try
+            //{
+            //    ProductoVendidoData.EliminarProductoVendido(1);
+            //    Console.WriteLine("Producto Vendido Eliminado Con Exito");
+            //}
+            //catch (Exception ex)
+            //{
+            //    throw new Exception("No se Pudo Eliminar el Producto Vendido", ex);
+            //}
 
 
 
